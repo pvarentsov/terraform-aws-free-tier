@@ -4,7 +4,6 @@ variable "profile" {
   default     = "terraform"
 }
 
-
 variable "region" {
   description = "Region for AWS resources"
   type        = string

@@ -1,2 +1,4 @@
 .idea/
 .terraform/
+
+**/backend/config.tf

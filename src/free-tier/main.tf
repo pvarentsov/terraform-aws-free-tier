@@ -5,7 +5,4 @@ provider "aws" {
 
 module "vpc" {
   source = "../modules/vpc"
-
-  create_vpc = true
-  vpc_name   = "Free Tier VPC"
 }

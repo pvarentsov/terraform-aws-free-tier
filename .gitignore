@@ -1,3 +1,2 @@
-### Intellij ###
-
-.idea/*
+.idea/
+.terraform/

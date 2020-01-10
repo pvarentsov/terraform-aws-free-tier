@@ -1,9 +1,9 @@
 output "vpc_id" {
   description = "The ID of the VPC"
-  value       = aws_vpc.vpc.id
+  value       = concat(aws_vpc.vpc.*.id, [""])[0]
 }
 
 output "vpc_arn" {
   description = "The ARN of the VPC"
-  value       = aws_vpc.vpc.arn
+  value       = concat(aws_vpc.vpc.*.arn, [""])[0]
 }

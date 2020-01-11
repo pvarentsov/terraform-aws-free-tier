@@ -1,3 +1,19 @@
+#### 2020, Thu, Jan 11
+   
+1. `Public Subnet`, `IGW`, `Route Table` modules working:
+   * Added `Public Subnet`, `IGW`, `Route Table` modules
+   * Tried to apply and destroy `VPC`, `Public Subnet`, `IGW`, `Route Table` infrastructure
+
+#### 2020, Thu, Jan 10
+
+1. Learning of the Terraform:
+   * Configuring S3 backend to store Terraform state
+   * Using ` -backend-config=path/to/config` key in `init` command. This key gives the ability to not show backend config in the repository
+     
+2. `VPC module` working:
+   * Added `VPC module`
+   * Tried to apply and destroy `VPC` infrastructure
+
 #### 2020, Thu, Jan 9
 
 1. Terraform binary has been installed:

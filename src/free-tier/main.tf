@@ -30,3 +30,15 @@ module "route_table" {
   internet_gateway_id = module.internet_gateway.internet_gateway_id
   public_subnet_id    = module.public_subnet.public_subnet_id
 }
+
+module "ec2" {
+  source = "../modules/ec2"
+
+  ec2_instance_type       = "t2.nano" # TODO: Change on t2.micro after testing
+
+  vpc_id                  = module.vpc.vpc_id
+  public_subnet_id        = module.public_subnet.public_subnet_id
+
+  ec2_ssh_key_name        = var.ec2_ssh_key_name
+  ec2_ssh_public_key_path = var.ec2_ssh_public_key_path
+}

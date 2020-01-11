@@ -1,4 +1,4 @@
-resource "aws_subnet" public_subnet {
+resource "aws_subnet" "public_subnet" {
   count                   = var.subnet_should_be_created ? 1 : 0
   vpc_id                  = var.vpc_id
   cidr_block              = var.subnet_cidr_block

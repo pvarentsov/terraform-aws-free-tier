@@ -19,7 +19,7 @@ variable "subnet_cidr_block" {
 variable "subnet_availability_zone" {
   description = "The Availability Zone of the Public Subnet"
   type        = string
-  default     = "us-east-1a "
+  default     = "us-east-1a"
 }
 
 variable "vpc_id" {

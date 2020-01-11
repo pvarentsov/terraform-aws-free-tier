@@ -10,7 +10,7 @@ variable "ec2_name" {
   default     = "Free Tier EC2"
 }
 
-variable "ec2_security_group" {
+variable "ec2_security_group_name" {
   description = "The Name of the EC2 Security Group"
   type        = string
   default     = "Free Tier EC2 Security Group"

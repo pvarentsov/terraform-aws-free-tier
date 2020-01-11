@@ -1,10 +1,10 @@
-#### 2020, Thu, Jan 11
+#### 2020, Sat, Jan 11
    
 1. `Public Subnet`, `IGW`, `Route Table` modules working:
    * Added `Public Subnet`, `IGW`, `Route Table` modules
    * Tried to apply and destroy `VPC`, `Public Subnet`, `IGW`, `Route Table` infrastructure
 
-#### 2020, Thu, Jan 10
+#### 2020, Fri, Jan 10
 
 1. Learning of the Terraform:
    * Configuring S3 backend to store Terraform state

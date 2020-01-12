@@ -34,8 +34,6 @@ module "route_table" {
 module "ec2" {
   source = "../modules/ec2"
 
-  ec2_instance_type       = "t2.nano" # TODO: Change on t2.micro after testing
-
   vpc_id                  = module.vpc.vpc_id
   public_subnet_id        = module.public_subnet.public_subnet_id
 

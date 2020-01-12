@@ -16,6 +16,12 @@ variable "ec2_security_group_name" {
   default     = "Free Tier EC2 Security Group"
 }
 
+variable "ec2_security_group_description" {
+  description = "The Description of the EC2 Security Group"
+  type        = string
+  default     = "Free Tier EC2 Security Group"
+}
+
 variable "ec2_ami" {
   description = "The Amazon Machine Image"
   type        = string

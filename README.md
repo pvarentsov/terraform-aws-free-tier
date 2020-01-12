@@ -10,17 +10,17 @@ This is a [Terraform](https://www.terraform.io/) project for managing AWS resour
 
 It can build the next infrastructure:
 
-* One [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
-* One public [Subnet](https://docs.aws.amazon.com/vpc/latest/userguide/working-with-vpcs.html#AddaSubnet) in the `VPC`
-* One [IGW](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) to enable access to or from the internet for `VPC`
-* One [Route Table](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html) to associate `IGW`, `VPC` and `Subnet`
-* One [EC2 Instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html) in the public `Subnet` with the HTTP(s) access and SSH access
+* A [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+* A public [Subnet](https://docs.aws.amazon.com/vpc/latest/userguide/working-with-vpcs.html#AddaSubnet) in the `VPC`
+* An [IGW](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) to enable access to or from the internet for `VPC`
+* A [Route Table](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html) to associate `IGW`, `VPC` and `Subnet`
+* An [EC2 Instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html) in the public `Subnet` with the HTTP(s) access and SSH access
 
 ### Pre steps
 
 1. [Install Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
 2. Create AWS account
-3. Create `~/.aws/credentials` file if not exists and add you Terraform profile. For example:
+3. If the file `~/.aws/credentials` doesn't exist, create it and add you Terraform profile to the file. For example:
    ```text
    [terraform]
    aws_access_key_id = Your access key

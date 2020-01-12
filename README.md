@@ -51,7 +51,7 @@ After building the infrastructure you can try to connect to you `EC2 instance` v
 
 To check HTTP access you can install `apache2` on your EC2 instance:
 
-1. `ssh -i ./provision/access/free-tier-ec2-key ubuntu@[you public ip of the EC2 instance]`
+1. `ssh -i ./provision/access/free-tier-ec2-key ubuntu@[EC2 public IP]`
 2. `sudo apt install apache2` (on EC2 machine)
 3. Check in browser: `http://[EC2 public IP]/`. You can see `Apache2 Default Page` (Something like [this](https://annex.exploratorium.edu/))
 

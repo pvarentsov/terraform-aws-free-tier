@@ -41,6 +41,7 @@ It can build the next infrastructure:
 1. `cd ./src/free-tier`
 2. `terraform init -backend-config="./backend/config.tf"`
 3. `terraform plan`
+4. `terraform apply`
 
 ### Post steps
 

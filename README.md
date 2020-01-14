@@ -20,7 +20,7 @@ It can build the next infrastructure:
 
 1. [Install Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
 2. Create AWS account
-3. If the file `~/.aws/credentials` doesn't exist, create it and add you Terraform profile to the file. For example:
+3. If the file `~/.aws/credentials` does't exist, create it and add you Terraform profile to the file. For example:
    ```text
    [terraform]
    aws_access_key_id = Your access key

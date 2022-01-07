@@ -54,7 +54,7 @@ To check HTTP access you can install `apache2` on your EC2 instance:
 
 1. `sudo apt update && sudo apt install apache2` (on EC2 machine)
 2. `sudo service apache2 start` (on EC2 machine) 
-3. Check in browser: `http://[EC2 public IP]/`. You can see `Apache2 Default Page` (Something like [this](https://annex.exploratorium.edu/))
+3. Check in browser: `http://[EC2 public IP]/`. You can see `Apache2 Default Page` (something like [this](https://annex.exploratorium.edu/))
 
 To destroy infrastructure:
 

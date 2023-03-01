@@ -60,3 +60,7 @@ To destroy infrastructure:
 
 1. `cd ./src/free-tier`
 2. `terraform destroy`
+
+### Similar projects
+
+* https://github.com/rogeriomm/aws-lab
